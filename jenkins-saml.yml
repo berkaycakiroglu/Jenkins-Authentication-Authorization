@@ -96,7 +96,7 @@ jenkins:
       groupsAttributeName: "Role"
       idpMetadataConfiguration:
         period: 1440
-        url: "http://192.168.64.4:8082/realms/DreamJenkinsSAML/protocol/saml/descriptor"
+        url: "http://192.168.64.6:8083/realms/CaseSAML/protocol/saml/descriptor"
       maximumAuthenticationLifetime: 86400
       usernameCaseConversion: "none"
   slaveAgentPort: 50000
@@ -134,7 +134,7 @@ unclassified:
     storage: "file"
   location:
     adminAddress: "address not configured yet <nobody@nowhere>"
-    url: "http://192.168.64.4:8081/"
+    url: "http://192.168.64.6:8082/"
   mailer:
     charset: "UTF-8"
     useSsl: false
